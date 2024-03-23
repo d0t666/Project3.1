@@ -206,3 +206,19 @@ a {
     position: absolute;
     right: 270px;
 }
+/* logoarea */
+.logo-section {
+    margin-top: 130px;
+}
+.logo-section__control {
+    background: #e2eddf;
+    width: 1140px;
+    height: 201px;
+    border-radius: 100.5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 80px 122px;
+    column-gap: 70px;
+}
