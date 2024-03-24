@@ -765,11 +765,14 @@ a {
     cursor: pointer;
 }
 .service__item--bg {
-    width: 39px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
 }
+
 .service__item--icon {
-    color: #143c3c;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
 }
 .service__item--icon {
 }
