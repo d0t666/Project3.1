@@ -514,3 +514,107 @@ a {
 .stat__imagelist--cover {
     margin-right: -5px;
 }
+/* Process */
+.process {
+    margin-top: 79px;
+}
+.process__top-content--heading {
+    margin-top: 20px;
+
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.23; /* 123.81% */
+    max-width: 477px;
+    position: relative;
+}
+.process__top-content--heading::after {
+    content: "";
+    width: 66px;
+    height: 2px;
+    background: var(--Primary-color-black, #152427);
+    display: inline-block;
+    margin: 0 0 9px 14px;
+}
+.process-list {
+    margin-top: 81px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 148px;
+}
+.process-list__item {
+    display: grid;
+    grid-template-columns: 8% 15% 77%;
+    column-gap: 49px;
+    width: 1140px;
+    height: 185px;
+    border-radius: 33px;
+    padding: 57px 30px;
+    align-items: center;
+    transition: 0.25s;
+}
+.process-list__item::after {
+    content: "";
+    width: 85vh;
+    height: 3px;
+    background: linear-gradient(
+        180deg,
+        #83a17d 4.17%,
+        rgba(131, 161, 125, 0) 36.46%
+    );
+    margin-top: 21px;
+}
+.process-list__item:first-child:after {
+    display: none;
+}
+.process-list__item:hover {
+    border-radius: 33px;
+    background: var(--Scondery-color-light-green, #e2eddf);
+}
+.process-list__item--number {
+    color: #143c3c;
+
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.72;
+}
+.process-list__title {
+    color: #152427;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+}
+.process-list__link {
+    color: #575d5e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 22px;
+    display: inline-block;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.process-list__desc {
+    max-width: 572px;
+    color: #7d8188;
+
+    /* Paragraph/h2 18px medium */
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+    margin-left: 126px;
+}
+.process-list__item--img {
+    position: relative;
+}
+.process-list__img {
+    position: absolute;
+    width: 450px;
+    height: 444px;
+    bottom: 0;
+    right: 92px;
+}
