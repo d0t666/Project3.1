@@ -95,12 +95,13 @@
     </head>
     <body >
         <!-- Header -->
-        <header class="header">
+        <header class="header header--sticky">
             <div class="container">
                 <div class="header__content">
                     <!-- logo -->
                     <a href="/"
                         ><img
+                        id="home"
                             src="./assets/img/logo.png"
                             alt=""
                             class="header__logo"
@@ -111,18 +112,18 @@
                             <li class="navbar__item">
                                 <a
                                     class="navbar__item-link navbar__item-link--active"
-                                    href="#!"
+                                    href="#"
                                     >Home</a
                                 >
                             </li>
                             <li class="navbar__item">
-                                <a class="navbar__item-link" href="#!">About</a>
+                                <a class="navbar__item-link" href="#about">About</a>
                             </li>
                             <li class="navbar__item">
-                                <a class="navbar__item-link" href="#!">Blog</a>
+                                <a class="navbar__item-link" href="#blog">Blog</a>
                             </li>
                             <li class="navbar__item">
-                                <a class="navbar__item-link" href="#!"
+                                <a class="navbar__item-link" href="#contact"
                                     >Contact</a
                                 >
                             </li>
@@ -431,7 +432,7 @@
                 </div>
             </setion>
             <!-- About us -->
-            <section class="about-us">
+            <section id="about" class="about-us">
                 <div class="container">
                     <div class="about-us__body">
                         <!-- about us left -->
@@ -652,7 +653,7 @@
     </div>
 </section>
                         <!-- BLOG & ARTICLES -->
-<section class="blog">
+<section id="blog" class="blog">
         <section class="container">
         <p class="container-title">BLOG & ARTICLES</p>
         <section class="blog__top-content">
@@ -737,7 +738,7 @@
 </section>
         </main>
         <!-- Footer -->
-        <footer class="footer">
+        <footer id="contact" class="footer">
                 <section class="container">
                 <section class="footer__maincontent">
                     <section class="newsletter">
