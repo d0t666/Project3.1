@@ -261,6 +261,9 @@ a {
     padding: 80px 122px;
     column-gap: 70px;
 }
+.logo-section__hover:hover {
+    cursor: pointer;
+}
 /* services*/
 .services__body {
     padding-top: 53px;
