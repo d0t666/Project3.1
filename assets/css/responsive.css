@@ -1,0 +1,196 @@
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (max-width: 1399.98px) {
+    /* CSS rules for extra extra large devices */
+    .hero__media {
+        gap: 10px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.98px) {
+    /* CSS rules for extra large devices */
+    .hero__media {
+        margin-top: 70px;
+    }
+    .logo-section__control {
+        padding: 50px;
+        /* gap: 10px; */
+    }
+    .process-list__img {
+        --img-size: 290px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) {
+    /* CSS rules for large devices */
+    /* nav */
+    .navbar__listitem {
+        margin-right: 0;
+        column-gap: 24px;
+    }
+    /* end nav */
+    .hero__main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-section__control {
+        justify-content: center;
+    }
+    .logo-wrap {
+        margin-bottom: 10px;
+    }
+    .hero__media {
+        gap: 0;
+    }
+    .hero__img {
+        width: 163px;
+        height: 377px;
+    }
+
+    .about-us__img {
+        height: 348px;
+    }
+    .stat__loading {
+        top: 33rem;
+        bottom: initial;
+    }
+    .process-list__img {
+        --img-size: 150px;
+    }
+    .process-list__desc {
+        font-size: 1.6rem;
+    }
+
+    /* video */
+    .feature__topcontent {
+        grid-template-columns: 1fr;
+    }
+    .feature__topcontent--heading {
+        margin-bottom: 8px;
+    }
+    .feature__topcontent--right {
+        margin-left: 0;
+    }
+
+    /*  */
+    .blog__top-content {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 15px;
+    }
+    .blog__top-content--header,
+    .blog__desc {
+        width: 100%;
+    }
+
+    .blog__top-content--header::after {
+        right: 50px;
+    }
+
+    .header__content .btn__link {
+        min-width: 100px;
+    }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (max-width: 767.98px) {
+    /* CSS rules for medium devices */
+    /* Nav */
+    .header__content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 35px;
+    }
+    /* end nav */
+    .hero__img {
+        width: 147px;
+        height: 338px;
+    }
+    .hero__media--circle {
+        top: 16px;
+    }
+    .btn {
+        min-width: 123px;
+    }
+    .logo-section__hover {
+        width: 110px;
+    }
+    .about-us__content {
+        margin-top: 55px;
+    }
+
+    .process-list__item {
+        grid-template-columns: 1fr;
+        height: initial;
+        margin: 15px 0;
+        padding: 15px 30px;
+    }
+    .process-list__desc {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .service__item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer__maincontent {
+        grid-template-columns: 1fr;
+    }
+    .footer__link {
+        margin-top: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog__top-content--header::after,
+    .services__topcontent::after {
+        display: none;
+    }
+
+    .about-us__media {
+        width: 100%;
+    }
+    .feature-video--bg {
+        width: 84vw;
+    }
+    .feature-video--bg {
+        height: 322px;
+    }
+}
+
+/* Small devices (phones, 0px and up) */
+@media (max-width: 575.98px) {
+    /* CSS rules for small devices */
+    .hero__img {
+        width: 119px;
+        height: 275px;
+    }
+    .navbar__item-link {
+        font-size: 1.6rem;
+    }
+    .footer__link--row {
+        margin: 0 auto;
+    }
+    .services__topcontent {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    input[type="color"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="time"],
+    input[type="url"],
+    input[type="week"],
+    select:focus,
+    textarea {
+        font-size: 1.6rem !important;
+    }
+}
